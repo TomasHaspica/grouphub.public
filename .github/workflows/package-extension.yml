@@ -1,0 +1,28 @@
+name: Build & Package Chrome Extension
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Package ZIP
+      - name: Package Chrome Extension
+        run: |
+          mkdir -p dist
+          zip -r dist/grouphub-latest.zip . -x '*.git*' -x '*.github*'
+
+      # 3. Upload as artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: grouphub-extension
+          path: dist/*
