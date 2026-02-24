@@ -2,7 +2,12 @@
   "group": [
     {
       "name": "Web",
-      "repos": ["adeon-catalog"]
-    }
+      "repos": ["adeon-catalog","adeon-web-konfigurator"]
+    },
+    {
+      "name": "Petr&Petr",
+      "repos": ["CommonFunctions",]
+   }
   ]
 }
+
