@@ -1,0 +1,8 @@
+{
+  "group": [
+    {
+      "name": "Web",
+      "repos": ["adeon-catalog"]
+    }
+  ]
+}
