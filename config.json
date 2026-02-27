@@ -9,6 +9,10 @@
           "repos": ["Rychle-pohledy", "Rychle-pohledy-.NET","QR-generator","QR-generator-.NET","Kontrola-BOM","Kontrola-BOM-.NET","Promitnut-geometrie","promitnut-geometrie-.NET","Generator-Pole","Generator-Pole-.NET"]
         },
         {
+          "name": "Desktop Apps",
+          "repos": ["PDF-Tisk", "InnovaMont-PDF-Tisk"]
+        },
+        {
           "name": "Web",
           "repos": ["adeon-catalog", "adeon-web-konfigurator"]
         }
@@ -17,12 +21,6 @@
     {
       "name": "Peter Meduna",
       "repos": ["CommonFunctions"]
-   }
+    }
   ]
 }
-
-
-
-
-
-
