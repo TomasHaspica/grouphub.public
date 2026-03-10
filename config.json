@@ -6,7 +6,7 @@
       "group": [
         {
           "name": "Inventor",
-          "repos": ["Rychle-pohledy-.NET","QR-generator","QR-generator-.NET","Kontrola-BOM","Kontrola-BOM-.NET","Promitnut-geometrie","promitnut-geometrie-.NET","Generator-Pole","Generator-Pole-.NET"]
+          "repos": ["Rychle-pohledy","Rychle-pohledy-.NET","QR-generator","QR-generator-.NET","Kontrola-BOM","Kontrola-BOM-.NET","Promitnut-geometrie","promitnut-geometrie-.NET","Generator-Pole","Generator-Pole-.NET"]
         },
         {
           "name": "Desktop Apps",
@@ -24,6 +24,7 @@
     }
   ]
 }
+
 
 
 
